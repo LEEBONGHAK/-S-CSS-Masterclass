@@ -1,0 +1,38 @@
+.father {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 100px 50px;
+  /* column-gap: 10px;
+  row-gap: 10px; */
+  gap: 10px;
+}
+
+.child {
+  flex-basis: 30%;
+  background: peru;
+  color: white;
+  font-size: 50px;
+}
+
+/* 
+CSS grid basic concepts
+- grid를 시작하고 싶을 때, flexbox처럼 grid도 father에서 일어남
+- gird의 규칙은 flexbox와 거의 비슷
+
+grid-template-columns
+- grid에서 column의 개수 설정
+- 원하는 크기 만큼 (각각의 column 마다)
+
+grid-template-rows
+- grid에서 row의 개수 설정
+- 원하는 크기 만큼 (각각의 row 마다)
+
+column-gap
+- grid column 사이에 공간 넣기
+
+row-gap
+- grid row 사이에 공간 넣기
+
+gap
+- grid의 column, row 사이의 공간을 한번에 설정
+*/

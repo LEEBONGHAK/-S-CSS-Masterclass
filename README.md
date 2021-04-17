@@ -5,24 +5,24 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 
 ## Flexbox:
 
-- [ x ] flex-directionflex-direction
-- [ x ] order
-- [ x ] justify-content
-- [ x ] align-items
-- [ x ] align-self
-- [ x ] flex-wrap
-- [ x ] align-content
-- [ x ] flex-grow
-- [ x ] flex-shrink
-- [ x ] flex-basis
+- [x] flex-directionflex-direction
+- [x] order
+- [x] justify-content
+- [x] align-items
+- [x] align-self
+- [x] flex-wrap
+- [x] align-content
+- [x] flex-grow
+- [x] flex-shrink
+- [x] flex-basis
 
 ## Grid:
 
-- [ ] grid-template-columns
-- [ ] grid-template-rows
-- [ ] column-gap
-- [ ] row-gap
-- [ ] gap
+- [x] grid-template-columns
+- [x] grid-template-rows
+- [x] column-gap
+- [x] row-gap
+- [x] gap
 - [ ] grid-template-areas
 - [ ] grid-column-start
 - [ ] grid-column-end
