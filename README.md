@@ -28,8 +28,8 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 - [x] grid-column-end
 - [x] grid-row-start
 - [x] grid-row-end
-- [ ] grid-column
-- [ ] grid-row
+- [x] grid-column
+- [x] grid-row
 - [ ] grid-template
 - [ ] justify-items
 - [ ] align-items

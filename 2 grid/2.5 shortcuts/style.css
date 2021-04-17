@@ -1,0 +1,46 @@
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 200px);
+}
+
+.header {
+  background-color: #2ecc71;
+  /* grid-column: 1 / 5; */
+  /* grid-column: 1 / -1; */
+  grid-column: span 4;
+}
+
+.content {
+  background-color: #3498db;
+  /* grid-column: 1 / 4; */
+  grid-column: 1 / -2;
+  /* grid-row: 2 / 4; */
+  grid-row: 2 / span 2;
+}
+
+.nav {
+  background-color: #8e44ad;
+  /* grid-row: 2 / 4; */
+  grid-row: 2 / span 2;
+}
+
+.footer {
+  background-color: #f39c12;
+  /* grid-column: 1 / 5; */
+  /* grid-column: 1 / -1; */
+  grid-column: span 4;
+}
+
+/* 
+grid-column: start line / end line;
+grid-row: start line / end line;
+- grid-column-start, grid-column-end, grid-row-start, grid-row-end 사용을 짧게 하기 위한 방법
+- (-1)은 끝에 있는 줄을 뜻함 / 끝이 어디있는지 알 필요 없기 때문에 몇개의 줄을 갖고 있는지 신경 쓰고 싶지 않을 때 유용
+
+span
+- grid-column, grid-row에서 시작과 끝을 적지않고 span으로 대체 가능
+- 얼마나 cell이 존재하는지 적음
+(ex. grid-column: 2 / span 2; => 시작이 1인 경우 적지 않아도 됨)
+*/
