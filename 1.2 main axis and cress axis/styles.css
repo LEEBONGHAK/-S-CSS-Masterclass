@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.box {
+  background: peru;
+  width: 200px;
+  color: white;
+}
+
+/* flexbox axis
+flex-direction : flexbox의 axis를 결정
+- 기본값은 row(horizental direction) 즉, 수평축이 main axis 
+- column(vertical direction) 즉, 수직축이 main axis
+- main axis가 아닌 축 -> cross axis
+
+justify-content : 수평축에 있는 flex children의 위치를 변경 / browser가 자동으로 계산하여 반영 (center, space-between, space-around, right, left 등등)
+align-items : 수직축에 있는 flex children의 위치를 변경 (center, flex-end, flex-start, stretch, initial, inherit, unset, baseline 등등)
+*/
