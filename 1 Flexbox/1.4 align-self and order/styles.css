@@ -1,0 +1,39 @@
+.father {
+  display: flex;
+  /* for Main Axis */
+  justify-content: center;
+  height: 200vh;
+}
+
+.box {
+  background: peru;
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 18px;
+}
+
+.box:nth-child(1) {
+  order: 2;
+}
+
+.box:nth-child(2) {
+  align-self: center;
+}
+
+.box:nth-child(3) {
+  align-self: flex-end;
+}
+
+/* 
+align-self
+- align items처럼 비슷한 일을 수행 즉, cross axis 그러나 하나의 box에만 해당
+- children에게 배정되는 property
+
+order
+- children에게만 부여 가능
+- 순서를 변경할 수 있음
+- html을 변경할 수 없는 경우 유용하다
+- order의 default값은 '0'
+- order이 적을 수록 우선순위
+*/
