@@ -1,0 +1,46 @@
+.father {
+  display: flex;
+  /* for Main Axis */
+  justify-content: space-around;
+  width: 100%;
+}
+
+.box {
+  background: peru;
+  width: 300px;
+  height: 200px;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:nth-child(2) {
+  background: #000;
+  /* flex-shrink: 3; */
+  flex-grow: 2;
+  /* 남아 있는 공간의 2/3을 가져감 */
+}
+
+.box:nth-child(3) {
+  flex-shrink: 2;
+  flex-grow: 1;
+  /* 남아 있는 공간의 1/3을 가져감 */
+}
+
+/* 
+반응형 디자인(responsive design)을 할 때 유용
+
+flex-shrink
+- 기본적으로 화면의 크기가 조정될 때 element의 행동을 정의
+- 화면의 크기가 줄어들 때 element의 크기 변화를 상대적으로 나타냄
+(ex. flex-shrink: 2; -> 화면이 줄어들 때 크기가 줄어드는 정도가 2배)
+- flex-shrink: 1; -> 기본값
+
+flex-grow
+- flex-shrink와 원리는 같지만 반대의 의미
+- 화면의 크기가 커질 때 element가 남아있는 빈 공간을 가져오거나 해당 element가 가질 수 있는 만큼 커지게 됨
+- 남은 공간을 가져가는 정도는 element들의 flex-grow 값에 따라 상대적으로 차지
+- flex-shrink: 0; -> 기본값
+*/
