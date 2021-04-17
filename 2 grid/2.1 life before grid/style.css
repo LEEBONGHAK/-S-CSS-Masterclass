@@ -1,0 +1,25 @@
+.father {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.child {
+  flex-basis: 30%;
+  background: peru;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child:nth-child(4) {
+  margin-top: 10px;
+}
+
+/* 
+grid(격자무늬) 만들기 위해 위와 같이 코딩했을 경우 4번과 5번 사이에 빈 공간이 발생
+즉, grid 형태를 만들기 힘듬
+
+=> 이것을 해결하기 위해서 CSS grid 탄생
+*/
