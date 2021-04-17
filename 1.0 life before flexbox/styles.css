@@ -1,0 +1,25 @@
+/* flexbox과 grid를 배우기 전에 어떻게 작업하는지 */
+.box {
+  background: blue;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  color: white;
+}
+
+.box:nth-child(2) {
+  margin-right: 35px;
+}
+
+.box:nth-child(3) {
+  margin-right: 20px;
+}
+
+/* displayd의 종류
+block : element고 box, block 옆에는 어떠한 element도 올 수 없음
+inline-block : block 속성이 남아있음 / block들이 옆에 존재할 수 있게 만듬
+inline : box가 아님 즉, 유동적임
+
+flexbox와 grid가 없으면 위와 같이 크기를 계산하여 조정해줘야 한다.
+-> 화면의 크기에 따라 각각 디자인은 다르게 해줘야함
+*/
