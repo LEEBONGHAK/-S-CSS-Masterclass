@@ -17,6 +17,6 @@ flex-direction : flexbox의 axis를 결정
 - column(vertical direction) 즉, 수직축이 main axis
 - main axis가 아닌 축 -> cross axis
 
-justify-content : 수평축에 있는 flex children의 위치를 변경 / browser가 자동으로 계산하여 반영 (center, space-between, space-around, right, left 등등) - for main axis
+justify-content : 수평축에 있는 flex children의 위치를 변경 / browser가 자동으로 계산하여 반영 (center, space-between, space-around, flex-start, flex-end 등등) - for main axis
 align-items : 수직축에 있는 flex children의 위치를 변경 (center, flex-end, flex-start, stretch, initial, inherit, unset, baseline 등등) - for cross axis
 */
