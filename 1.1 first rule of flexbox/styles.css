@@ -1,0 +1,15 @@
+body {
+  display: flex;
+}
+
+.box {
+  background: peru;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+
+/* flexbox의 규칙
+- flexbox에서는 children과 얘기하지 않음
+- flexbox를 통해 움직이고 싶다면 flexbox container를 생성해야함
+*/
