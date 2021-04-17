@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  /* for Main Axis */
+  justify-content: center;
+  /* for Cross Axis */
+  align-items: stretch;
+}
+
+.box {
+  background: peru;
+  height: 200px;
+  color: white;
+}
+
+/* flexbox axis(매우 중요)
+flex-direction: row;
+- main axis = 가로축
+- cross axis = 세로축
+
+
+flex-direction: column;
+- main axis = 세로축
+- cross axis = 가로축
+*/
