@@ -23,7 +23,7 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 - [x] column-gap
 - [x] row-gap
 - [x] gap
-- [ ] grid-template-areas
+- [x] grid-template-areas
 - [ ] grid-column-start
 - [ ] grid-column-end
 - [ ] grid-row-start

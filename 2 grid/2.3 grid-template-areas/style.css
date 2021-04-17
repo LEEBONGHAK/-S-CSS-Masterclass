@@ -1,0 +1,44 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto 200px;
+  grid-template-rows: 100px repeat(2, 200px) 100px;
+  grid-template-areas:
+    "header header header header"
+    "content content content nav"
+    "content content content nav"
+    "footer footer footer footer";
+}
+
+.header {
+  background-color: #2ecc71;
+  grid-area: header;
+}
+
+.content {
+  background-color: #3498db;
+  grid-area: content;
+}
+
+.nav {
+  background-color: #8e44ad;
+  grid-area: nav;
+}
+
+.footer {
+  background-color: #f39c12;
+  grid-area: footer;
+}
+
+/* 
+repeat
+- CSS grid가 가진 함수
+- repeat(반복횟수, 크기)
+
+auto
+- 전체 공간을 자동으로 나누어줌 
+
+grid-template-areas
+- 눈에 보이게 layout을 디자인 할 수 있음
+- 사용하기 위해 각 element에 'grid-area'를 사용하여 이름을 정해줘야함 (class 이름 자체를 사용할 순 없음)
+- 같은 영역은 이어져 있어야 하며, 이어져 있더라도 그 집합 영역이 'ㄱ'자나 'ㄴ'자 모양이면 안되고 직사각형이나 정사각형일 때만 가능
+*/
