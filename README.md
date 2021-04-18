@@ -30,7 +30,7 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 - [x] grid-row-end
 - [x] grid-column
 - [x] grid-row
-- [ ] grid-template
+- [x] grid-template
 - [ ] justify-items
 - [ ] align-items
 - [ ] place-items
@@ -46,8 +46,8 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 
 ## Keywords & Functions:
 
-- [ ] repeat
-- [ ] fr
+- [x] repeat
+- [x] fr
 - [ ] minmax
 - [ ] auto-fit
 - [ ] auto-fill

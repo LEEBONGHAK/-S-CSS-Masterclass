@@ -1,0 +1,46 @@
+.grid {
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr); */
+  gap: 5px;
+  height: 50vh;
+  grid-template:
+  /* row의 높이 / column의 너비(repeat 사용 불기) */
+    [header-start] "header header header header" 1fr [header-end]
+    [content-start] "content content content nav" 2fr [content-end]
+    [footer-start] "footer footer footer footer" 1fr [footer-end] / 1fr 1fr 1fr 1fr;
+}
+
+.header {
+  background-color: #2ecc71;
+  grid-area: header;
+}
+
+.content {
+  background-color: #3498db;
+  grid-area: content;
+}
+
+.nav {
+  background-color: #8e44ad;
+  grid-area: nav;
+}
+
+.footer {
+  background-color: #f39c12;
+  grid-area: footer;
+}
+
+/* 
+fr(fraction / 부분)
+- %, pixel 같은 측정 단위
+- grid에서 사용 가능한 공간을 차지(비율적으로)
+- pixel보다 유동적으로 크기를 정할 수 있음
+- fr을 높이에서 사용하려면 grid의 높이를 설정해줘야함
+
+grid-template
+- 지름길 중 젤 위에 존재
+- grid-template-columns, grid-template-rows, grid-template-areas를 합친것
+- grid-area의 이름을 사용할 것임
+- 각 row에 이름을 붙일 수 있지만 전부 붙이거나 붙이지 않거나 선택해야 함(잘 사용하진 않음 -> 편의에 따라 선택)
+*/
