@@ -1,0 +1,49 @@
+.grid {
+  display: grid;
+  gap: 5px;
+  height: 50vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: start;
+  align-items: center;
+}
+
+.header {
+  background-color: #2ecc71;
+  height: 40px;
+}
+
+.content {
+  background-color: #3498db;
+  height: 40px;
+}
+
+.nav {
+  background-color: #8e44ad;
+  height: 40px;
+}
+
+.footer {
+  background-color: #f39c12;
+  height: 40px;
+}
+
+/* 
+justify-items
+align-items
+- father(grid container)에서 이 property들을 사용
+
+justify-items
+- 기본값 : stretch(children의 크기와 상관없이 grid 전체를 채움)
+- start : children의 너비만큼 grid를 수평으로 처음 부분에 채움
+- 기본 크기를 정하면 stretch는 적용되지 않음
+
+align-items
+- 기본값 : stretch(children의 크기와 상관없이 grid 전체를 채움)
+- start : children의 높이만큼 grid를 수직으로 처음 부분에 채움
+- 기본 크기를 정하면 stretch는 적용되지 않음
+
+place-items
+- place-items: 수직 수평;
+- 즉, align-items + justify-items
+*/

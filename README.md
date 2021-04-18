@@ -31,9 +31,9 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 - [x] grid-column
 - [x] grid-row
 - [x] grid-template
-- [ ] justify-items
-- [ ] align-items
-- [ ] place-items
+- [x] justify-items
+- [x] align-items
+- [x] place-items
 - [ ] justify-content
 - [ ] align-content
 - [ ] place-content
