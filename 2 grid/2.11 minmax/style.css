@@ -1,0 +1,23 @@
+.grid {
+  color: white;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+  grid-template-rows: repeat(4, 100px);
+  grid-auto-rows: 100px;
+}
+
+.item:nth-child(odd) {
+  background-color: #2ecc71;
+}
+
+.item:nth-child(even) {
+  background-color: #3498db;
+}
+
+/*
+minmax
+- 얼마나 작게 또는 크게 element가 될 수 있는지 지정할 수 있도록 만듬
+- column과 row의 크기를 지정할 때 사용
+(ex. grid-template-columns: repeat(4, minmax(100px, 1fr));
+*/
