@@ -49,8 +49,8 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 - [x] repeat
 - [x] fr
 - [x] minmax
-- [ ] auto-fit
-- [ ] auto-fill
+- [x] auto-fit
+- [x] auto-fill
 - [ ] min-content
 - [ ] max-content
 

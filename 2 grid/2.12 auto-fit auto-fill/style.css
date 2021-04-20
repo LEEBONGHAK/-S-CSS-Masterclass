@@ -1,0 +1,42 @@
+.grid {
+  color: white;
+  display: grid;
+  gap: 5px;
+  grid-auto-rows: 100px;
+  margin-bottom: 30px;
+}
+
+.item:nth-child(odd) {
+  background-color: #2ecc71;
+}
+
+.item:nth-child(even) {
+  background-color: #3498db;
+}
+
+.grid:first-child {
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.grid:last-child {
+  grid-template-columns: repeat(auoto-fit, minmax(100px, 1fr));
+}
+
+/*
+auto-fill
+auto-fit
+- repeat 함수에서만 사용
+- 얼마나 많은 element가 있는지 모를 때 유용
+- 유동적인 크기가 필요할 때, 반응형 디자인에 유용
+
+auto-fill
+- 주어진 사이즈 안에서 최대한 많은 column또는 row들을 생성
+- element 없이 비어있더라도 최대한 많이 생성함
+- 정확한 시이즈를 위해 사용
+
+auto-fit
+- 딱 맞추는 것
+- 현재 element들을 늘려 크기를 다 채울 수 있는 정도로 조정해 맞춤
+- 빈공간 없이 만들어짐
+- 유동적인 사이즈를 위해 사용
+*/
