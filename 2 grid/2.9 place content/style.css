@@ -1,0 +1,46 @@
+.grid {
+  color: black;
+  display: grid;
+  gap: 5px;
+  height: 250vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: end;
+  align-content: stretch;
+}
+
+.header {
+  background-color: #2ecc71;
+}
+
+.content {
+  background-color: #3498db;
+}
+
+.nav {
+  background-color: #8e44ad;
+}
+
+.footer {
+  background-color: #f39c12;
+}
+
+/* 
+items vs contenets
+items
+- 셀 중에 하나, 걔네 중에 각 하나 하나라는 것을 의미
+contents
+- 전체 grid
+- grid element가 아닌 grid 자체의 위치를 조정
+
+justify-contents
+- 기본값 : start
+- 모든 grid를 수평 방향으로 grid의 위치를 정렬
+
+align-contents
+- 기본값 : start
+- 모든 grid를 수직 방향으로 grid의 위치를 정렬
+
+place-content: 수직 수평;
+- align-contents + justify-contents
+*/

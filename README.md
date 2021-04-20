@@ -34,9 +34,9 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 - [x] justify-items
 - [x] align-items
 - [x] place-items
-- [ ] justify-content
-- [ ] align-content
-- [ ] place-content
+- [x] justify-content
+- [x] align-content
+- [x] place-content
 - [ ] justify-self
 - [ ] align-self
 - [ ] place-self
