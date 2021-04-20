@@ -51,8 +51,8 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 - [x] minmax
 - [x] auto-fit
 - [x] auto-fill
-- [ ] min-content
-- [ ] max-content
+- [x] min-content
+- [x] max-content
 
 ## SCSS:
 

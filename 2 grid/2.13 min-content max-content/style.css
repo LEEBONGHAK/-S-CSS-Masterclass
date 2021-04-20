@@ -1,0 +1,31 @@
+.grid {
+  color: white;
+  display: grid;
+  gap: 5px;
+  /* grid-template-columns: max-content min-content; */
+  /* grid-template-columns: repeat(5, minmax(max-content, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(20px, max-content));
+  grid-auto-rows: 100px;
+  margin-bottom: 30px;
+}
+
+.item:nth-child(odd) {
+  background-color: #2ecc71;
+}
+
+.item:nth-child(even) {
+  background-color: #3498db;
+}
+
+/*
+min-content
+max-content
+- grid 속 content 사이즈를 직접 디자인할 때 사용
+- repeat, minmax들과 결합하여 사용 가능
+
+min-content
+- 만약 box를 만들때 content가 작아질 수 있는 만큼 작아지는 것
+
+max-content
+- box를 만들 때 content가 필요한 만큼 크게 만드는 것
+*/
