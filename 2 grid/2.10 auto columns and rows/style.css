@@ -1,0 +1,37 @@
+.grid {
+  color: white;
+  display: grid;
+  gap: 5px;
+  height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.header {
+  background-color: #2ecc71;
+  /* align-self: end;
+  justify-self: center; */
+  place-self: end center;
+}
+
+.content {
+  background-color: #3498db;
+}
+
+.nav {
+  background-color: #8e44ad;
+}
+
+.footer {
+  background-color: #f39c12;
+}
+
+/* 
+align-self: 수직
+justify-slef: 수평
+- 개별적으로 cell의 element의 위치를 조정
+- children에만 적용되는 property
+
+place-self: 수직 수평;
+- align-self + justify-self
+*/
