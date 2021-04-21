@@ -1,19 +1,13 @@
 @import "_variables.scss";
 @import "_mixins.scss";
-
-h1 {
-  @include sexyTitle();
-}
+@import "_button.scss";
 
 a {
-  margin-bottom: 10px;
-  &:nth-child(odd) {
-    @include link(blue);
-  }
-  &:nth-child(even) {
-    @include link(red);
-  }
-  &:last-child {
-    @include last_link("odd");
-  }
+  @extend %button;
+  text-decoration: none;
+}
+
+button {
+  @extend %button;
+  border: none;
 }

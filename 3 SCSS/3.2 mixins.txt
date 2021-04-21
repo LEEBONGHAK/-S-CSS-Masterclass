@@ -4,3 +4,4 @@ Mixins
 - '@import' 하고 '@include (mixin name)();'를 이용해 원하는 mixin을 사용
 - 변수를 허용하게 만들어 줄 수도 있음
 - @if @else를 사용하여 if-else문 사용 가능
+- 상황에 따라 다르게 코딩을 하고 싶으면 사용

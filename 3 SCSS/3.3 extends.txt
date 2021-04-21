@@ -1,0 +1,6 @@
+Extends
+- 같은 코드를 중복하고 싶지 않을 때 사용
+- 다른 코드를 확장(extend)하거나 코드를 재사용하고 싶으때 사용
+- extend를 사용하 수 있는 scss를 만드는 방법은 '%(extend name)'를 사용하는 것
+- page에서 분리해야하는 element들이 많을 때 유용함
+- '@import'하여 '@extend %(extend name);'을 해 적용시켜 줌
