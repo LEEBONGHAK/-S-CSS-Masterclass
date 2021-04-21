@@ -56,9 +56,9 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 
 ## SCSS:
 
-- [ ] Variables
-- [ ] Nesting
-- [ ] Mixins
+- [x] Variables
+- [x] Nesting
+- [x] Mixins
 - [ ] Extend
 - [ ] Responsive Mixins
 

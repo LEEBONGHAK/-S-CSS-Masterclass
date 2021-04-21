@@ -1,23 +1,19 @@
 @import "_variables.scss";
+@import "_mixins.scss";
 
-h2 {
-  color: $bg;
-  font-size: $title;
+h1 {
+  @include sexyTitle();
 }
 
-.box {
-  margin-top: 20px;
-  &:hover {
-    background-color: green;
+a {
+  margin-bottom: 10px;
+  &:nth-child(odd) {
+    @include link(blue);
   }
-  h2 {
-    color: blue;
-    &:hover {
-      color: red;
-    }
+  &:nth-child(even) {
+    @include link(red);
   }
-  button {
-    color: $bg;
+  &:last-child {
+    @include last_link("odd");
   }
 }
-
