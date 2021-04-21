@@ -1,0 +1,43 @@
+gulp에서 src주소 파일에 있는 파일들이 관찰되고 있다
+src주소 파일에서 일어나는 모든 일은 CSS로 complie되는 것
+src주소 파일에서의 변화가 dest주소 파일에 반영되어 CSS로 complie된다.
+
+
+console에서 실수를 볼 수도 있다.
+EX)
+Error in plugin "sass"
+Message:
+    src/scss/styles.scss
+Error: Invalid CSS after '...something" body': expected 1 selector or at-rule, was "{"
+        on line 1 of src/scss/styles.scss
+>> @import "something" body {
+
+브라우져는 .scss 파일을 인식하지 못한다.
+
+
+Variables
+- 기본적으로  website에서 가장 중요한 colors나 가장 중요한 styles을 저장하고 싶을 때 사용
+- SCSS에서 variables를 사용하기 위해서 SCSS 폴더에 '_variables.scss' 이름의 파일을 만들어 주면 됨 또는 '_(원하는 이름).scss'
+- scss에서 앞에 밑줄(_)이 존재하는 파일은 css로 변하지 않았으면 하는 것들을 의미
+- 변수 지정을 하기 위해 '$(variables name): (value);' 실행
+- 그 후 사용하고자 하는 scss파일에 '@import'
+
+
+Nestings
+- nesting은 코드를 좀 더 정확하게 해줌 / 타겟하는 element를 더 정확하게 해줌
+EX)
+.box {
+  margin-top: 20px;
+  &:hover {
+    background-color: green;
+  }
+  h2 {
+    color: blue;
+    &:hover {
+      color: red;
+    }
+  }
+  button {
+    color: $bg;
+  }
+}
