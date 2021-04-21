@@ -1,0 +1,46 @@
+SCSS
+- 기본적으로 CSS preprocessor -> SCSS를 compile해서 일반적인 CSS로 변환
+- CSS preprocessor에는 SCS만 있는 건 아님
+
+SASS vs SCSS
+- 같은 방식으로 쓰임
+- SASS가 먼저 쓰여졌는데, SCSS랑 SASS는 다른 syntax를 가지고 있어 SCSS가 SASS를 위한 공식적인 syntax로 릴리즈 됨
+- 따라서 둘을 말할 땐 거의 같은 것을 말함 또는 같은 것을 다르게 말한 것이거나
+
+stylus, less
+- 다른 preprocessors
+
+stylus를 사용할 때 아래의 코드와 같이 적은 코드를 stylus와 같이 complie하면 일반적인 CSS로 변환
+
+body
+    font: 12px Helvetica, Arial, sans-serif
+
+a.button
+    -webkit-border-radius: 5px
+    -moz-border-radius: 5px
+    border-radius: 5pxs
+
+
+less를 사용할 때 아래의 코드와 같이 적은 코드를 less와 같이 complie하면 일반적인 CSS로 변환
+
+#header {
+    color: black;
+    .navigation {
+        font-size: 12px;
+    }
+    .logo {
+        width: 300px;
+    }
+}
+
+
+
+SCSS와 SASS는 점점 업계 표준이 되어가고 있음(SCSS가 더 낫기 때문에)
+SCSS는 CSS를 programming language처럼 만들고 syntax를 개선하고 좋은 걸 사용할 수 있음
+(variables, function, extend 등등 사용가능)
+CSS에 없는 좋은 것들을 많이 활용 가능
+SCSS를 사용하기엔 쉽지 않음 -> complie하거나 build하는 단계가 필요(이 강의에서 gulp를 이용)
+
+gulp
+- complie하거나 transform해주는 nodeJS package
+- 새로운 코드를 오래된 코드로 바꾸거나 SCSS, SASS를 일반적인 CSS로 바꿈
