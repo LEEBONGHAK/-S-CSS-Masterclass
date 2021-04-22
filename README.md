@@ -65,7 +65,7 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 ## To Clone:
 
 - [x] https://besthorrorscenes.com/
-- [ ] https://paint-box.com/
+- [x] https://paint-box.com/
 - [ ] http://10x19.co/
 - [ ] http://www.z-o-o.fr/
 - [ ] https://schwartzmedia.com.au/
