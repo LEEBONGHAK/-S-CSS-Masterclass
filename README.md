@@ -68,7 +68,7 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 - [x] https://paint-box.com/
 - [x] http://10x19.co/
 - [x] http://www.z-o-o.fr/
-- [ ] https://schwartzmedia.com.au/
+- [x] https://schwartzmedia.com.au/
 - [ ] https://tolv.dk/
 - [ ] https://rodicdavidson.co.uk/
 - [ ] https://beige.de/
