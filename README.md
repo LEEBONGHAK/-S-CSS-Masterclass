@@ -70,7 +70,7 @@ Nomadcoder의 CSS Layout 마스터 클래스를 수강한 결과이다.
 - [x] http://www.z-o-o.fr/
 - [x] https://schwartzmedia.com.au/
 - [x] https://tolv.dk/
-- [ ] https://rodicdavidson.co.uk/
+- [x] https://rodicdavidson.co.uk/
 - [ ] https://beige.de/
 - [ ] http://donicaida.com/
 - [ ] https://canalstreet.market/
